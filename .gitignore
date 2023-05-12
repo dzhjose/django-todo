@@ -1,0 +1,15 @@
+!.gitignore
+
+tw/node_modules/
+
+tw/package-lock.json
+
+venv/
+
+config/__pycache__
+
+apps/__pycache__
+
+apps/**/__pycache__
+
+**.sqlite3
