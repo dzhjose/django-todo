@@ -1,0 +1,27 @@
+{% extends "layout/base.html" %}
+
+{% block pageTitle %} 
+    Tasks view item
+{% endblock %}
+
+
+{% block content %}
+<div class="w-full rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">
+        {{ task.title }}
+      </div>
+      <p class="text-gray-700 text-base">
+       {{ task.description }}
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{ task.created_at | date:"d/m/Y H:i:s" }}</span>
+      <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Checked</span>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <a href="/edit/{{task.id}}/">Update</a>
+      <a href="/completed/{{task.id}}">Complete</a>
+    </div>
+</div>
+{% endblock %}

@@ -24,6 +24,5 @@ class TasksForm(forms.ModelForm):
             'completed': forms.CheckboxInput(attrs={
                 'class': 'leading-tight',
                 'id': 'checkbox-completed',
-                'required': True
             })
         }
