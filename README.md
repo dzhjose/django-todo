@@ -3,7 +3,7 @@ Todo app with Django and Tailwindcss
 
 # Create virtual enviroment
 - python -m venv {name of virutal enviroment i always use 'venv'}
-- 
+
 # Activate virtual enviroment
 - Linux
   - source venv/bin/activate
