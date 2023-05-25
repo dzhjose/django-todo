@@ -12,6 +12,7 @@ Todo app with Django and Tailwindcss
   
 # Install requirements with pip
 - pip install -r requirements.txt
+- run ./manage.py collectstatic -> this will move all the static files to staticfiles folder, this will load the necessary assets for the app
 
 # After installations
 - migrate the models
