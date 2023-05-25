@@ -26,3 +26,4 @@ Todo app with Django and Tailwindcss
 
 # End
 - after do all the instructions run ./manage.py runserver and go to localhost:8000 to see the result
+- ***Importat:*** you must quit running npm run dev for development or npm run build, this will add all the css rules you ad in the templates and will added for the css file in static folder
